@@ -1,12 +1,12 @@
 <template>
   <header>
-    <div>
-      <p>Work harder, get stronger</p>
+    <div class="text-center">
+      <h6>Work harder, get stronger</h6>
       <h1>EASY WITH OUR GYM</h1>
     </div>
   </header>
   <body>
-    <div>
+    <div class="text-center">
     <h2>Choose Program</h2>
     <img src="../assets/images/deco.png" alt="decoration" />
   </div>

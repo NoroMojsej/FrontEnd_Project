@@ -1,12 +1,12 @@
 <template>
   <header>
     <div>
-      <nav>
+      <b-navbar>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/schedules">Schedules</RouterLink>
         <RouterLink to="/classes">Classes</RouterLink>
-      </nav>
+      </b-navbar>
     </div>
   </header>
   <RouterView />

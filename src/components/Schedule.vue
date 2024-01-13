@@ -1,15 +1,18 @@
 <template>
-    <div>
-      <h2>Schedule</h2>
+    <div class="text-center">
+      <h1>Schedule</h1>
+      <img src="../assets/images/deco.png" alt="decoration" />
     </div>
     <div>
-        <button @click="changeDay('mon')">Monday</button>
-        <button @click="changeDay('tue')">Tuesday</button>
-        <button @click="changeDay('wed')">Wednesday</button>
-        <button @click="changeDay('thr')">Thursday</button>
-        <button @click="changeDay('fri')">Friday</button>
-
-      <table v-if="currentDay === 'mon'">
+      <div class="text-center">
+        <button type="button" class="btn btn-light" @click="changeDay('mon')">Monday</button>
+        <button type="button" class="btn btn-light" @click="changeDay('tue')">Tuesday</button>
+        <button type="button" class="btn btn-light" @click="changeDay('wed')">Wednesday</button>
+        <button type="button" class="btn btn-light" @click="changeDay('thr')">Thursday</button>
+        <button type="button" class="btn btn-light" @click="changeDay('fri')">Friday</button>
+      </div>
+      
+      <table class="table-light" v-if="currentDay === 'mon'">
         <tr v-for="(item, index) in Monday" :key="index">
           <td>{{ item.type }}</td>
           <td>{{ item.am }}</td>
@@ -18,7 +21,7 @@
         </tr>
       </table>
   
-      <table v-else-if="currentDay === 'tue'">
+      <table class="table-light" v-else-if="currentDay === 'tue'">
         <tr v-for="(item, index) in Tuesday" :key="index">
           <td>{{ item.type }}</td>
           <td>{{ item.am }}</td>
@@ -27,7 +30,7 @@
         </tr>
       </table>
 
-      <table v-else-if="currentDay === 'wed'">
+      <table class="table-light" v-else-if="currentDay === 'wed'">
         <tr v-for="(item, index) in Wednesday" :key="index">
           <td>{{ item.type }}</td>
           <td>{{ item.am }}</td>
@@ -36,7 +39,7 @@
         </tr>
       </table>
 
-      <table v-else-if="currentDay === 'thr'">
+      <table class="table-light" v-else-if="currentDay === 'thr'">
         <tr v-for="(item, index) in Thursday" :key="index">
             <td>{{ item.type }}</td>
           <td>{{ item.am }}</td>
@@ -45,7 +48,7 @@
         </tr>
       </table>
 
-      <table v-else-if="currentDay === 'fri'">
+      <table class="table-light" v-else-if="currentDay === 'fri'">
         <tr v-for="(item, index) in Friday" :key="index">
           <td>{{ item.type }}</td>
           <td>{{ item.am }}</td>
