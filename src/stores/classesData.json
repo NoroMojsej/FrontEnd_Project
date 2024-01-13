@@ -1,0 +1,26 @@
+[
+    { 
+      "id": 1,
+      "title": "First Training Class", 
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra nibh dolor, nec lacinia dolor suscipit sit amet. Aliquam aliquet mi in elit suscipit imperdiet. In tortor ex, laoreet non aliquam non, luctus ac urna. In hac habitasse platea dictumst. Curabitur ornare malesuada diam semper tempor. Suspendisse elementum dolor a nulla posuere, et consequat leo placerat. Nunc at volutpat nunc, ut mattis velit. Integer euismod gravida purus, in suscipit ipsum ornare sed. Morbi turpis magna, consectetur in elit ac, malesuada tincidunt mi. Nullam tristique pellentesque ex, quis porttitor nisi pretium et.", 
+      "image": "1.jpg"
+    },
+    { 
+      "id": 2,
+      "title": "Second Training Class", 
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra nibh dolor, nec lacinia dolor suscipit sit amet. Aliquam aliquet mi in elit suscipit imperdiet. In tortor ex, laoreet non aliquam non, luctus ac urna. In hac habitasse platea dictumst. Curabitur ornare malesuada diam semper tempor. Suspendisse elementum dolor a nulla posuere, et consequat leo placerat. Nunc at volutpat nunc, ut mattis velit. Integer euismod gravida purus, in suscipit ipsum ornare sed. Morbi turpis magna, consectetur in elit ac, malesuada tincidunt mi. Nullam tristique pellentesque ex, quis porttitor nisi pretium et.", 
+      "image": "2.jpg"
+    },
+    { 
+      "id": 3,
+      "title": "Third Training Class", 
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra nibh dolor, nec lacinia dolor suscipit sit amet. Aliquam aliquet mi in elit suscipit imperdiet. In tortor ex, laoreet non aliquam non, luctus ac urna. In hac habitasse platea dictumst. Curabitur ornare malesuada diam semper tempor. Suspendisse elementum dolor a nulla posuere, et consequat leo placerat. Nunc at volutpat nunc, ut mattis velit. Integer euismod gravida purus, in suscipit ipsum ornare sed. Morbi turpis magna, consectetur in elit ac, malesuada tincidunt mi. Nullam tristique pellentesque ex, quis porttitor nisi pretium et.", 
+      "image": "3.jpg"
+    },  
+    { 
+      "id": 4,
+      "title": "Fourth Training Class", 
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra nibh dolor, nec lacinia dolor suscipit sit amet. Aliquam aliquet mi in elit suscipit imperdiet. In tortor ex, laoreet non aliquam non, luctus ac urna. In hac habitasse platea dictumst. Curabitur ornare malesuada diam semper tempor. Suspendisse elementum dolor a nulla posuere, et consequat leo placerat. Nunc at volutpat nunc, ut mattis velit. Integer euismod gravida purus, in suscipit ipsum ornare sed. Morbi turpis magna, consectetur in elit ac, malesuada tincidunt mi. Nullam tristique pellentesque ex, quis porttitor nisi pretium et.", 
+      "image": "4.jpg"
+    }
+]
