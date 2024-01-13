@@ -1,0 +1,26 @@
+[
+    { 
+      "title": "Basic Fitness Course", 
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra nibh dolor, nec lacinia dolor suscipit sit amet." 
+    },
+    { 
+      "title": "New Gym Training", 
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra nibh dolor, nec lacinia dolor suscipit sit amet." 
+    },
+    { 
+      "title": "Basic Muscle Course", 
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra nibh dolor, nec lacinia dolor suscipit sit amet."
+    },  
+    { 
+      "title": "Advanced Muscle Course", 
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra nibh dolor, nec lacinia dolor suscipit sit amet." 
+    },
+    { 
+      "title": "Yoga Training Course", 
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra nibh dolor, nec lacinia dolor suscipit sit amet." 
+    },
+    { 
+      "title": "Bodybuilding Course", 
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra nibh dolor, nec lacinia dolor suscipit sit amet." 
+    }
+]

@@ -1,10 +1,6 @@
 <template>
-    <div class="text-center">
-      <h1>Schedule</h1>
-      <img src="../assets/images/deco.png" alt="decoration" />
-    </div>
     <div>
-      <div class="text-center">
+      <div class="text-center mt-5">
         <button type="button" class="btn btn-light" @click="changeDay('mon')">Monday</button>
         <button type="button" class="btn btn-light" @click="changeDay('tue')">Tuesday</button>
         <button type="button" class="btn btn-light" @click="changeDay('wed')">Wednesday</button>
@@ -12,7 +8,8 @@
         <button type="button" class="btn btn-light" @click="changeDay('fri')">Friday</button>
       </div>
       
-      <table class="table-light" v-if="currentDay === 'mon'">
+      <div class="d-flex justify-content-center mt-5">
+      <table v-if="currentDay === 'mon'">
         <tr v-for="(item, index) in Monday" :key="index">
           <td>{{ item.type }}</td>
           <td>{{ item.am }}</td>
@@ -21,7 +18,7 @@
         </tr>
       </table>
   
-      <table class="table-light" v-else-if="currentDay === 'tue'">
+      <table v-else-if="currentDay === 'tue'">
         <tr v-for="(item, index) in Tuesday" :key="index">
           <td>{{ item.type }}</td>
           <td>{{ item.am }}</td>
@@ -30,7 +27,7 @@
         </tr>
       </table>
 
-      <table class="table-light" v-else-if="currentDay === 'wed'">
+      <table v-else-if="currentDay === 'wed'">
         <tr v-for="(item, index) in Wednesday" :key="index">
           <td>{{ item.type }}</td>
           <td>{{ item.am }}</td>
@@ -39,7 +36,7 @@
         </tr>
       </table>
 
-      <table class="table-light" v-else-if="currentDay === 'thr'">
+      <table v-else-if="currentDay === 'thr'">
         <tr v-for="(item, index) in Thursday" :key="index">
             <td>{{ item.type }}</td>
           <td>{{ item.am }}</td>
@@ -48,7 +45,7 @@
         </tr>
       </table>
 
-      <table class="table-light" v-else-if="currentDay === 'fri'">
+      <table v-else-if="currentDay === 'fri'">
         <tr v-for="(item, index) in Friday" :key="index">
           <td>{{ item.type }}</td>
           <td>{{ item.am }}</td>
@@ -56,6 +53,7 @@
           <td>{{ item.trainer }}</td>
         </tr>
       </table>
+      </div>
     </div>
   </template>
   

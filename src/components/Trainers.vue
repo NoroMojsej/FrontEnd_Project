@@ -1,11 +1,5 @@
 <template>
-    <div class="text-center">
-        <h1>Expert Trainers</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra nibh dolor, nec lacinia dolor suscipit sit amet.</p>
-        <img src="../assets/images/deco.png" alt="decoration" />
-    </div>
-
-    <div class="container-fluid">
+    <div class="container-fluid mt-5">
         <div class="row justify-content-md-center">
             <div class="card text-dark bg-light mb-3" style="width: 20rem;" v-for="(item, index) in trainersStore.trainers" :key="index">
                 <img :src="'src/assets/images/'+ item.image" class="card-img-top" alt="Trainer Image" />

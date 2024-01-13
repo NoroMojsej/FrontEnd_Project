@@ -1,18 +1,12 @@
 <template>
-  <div class="text-center">
-      <h1>Our Classes</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra nibh dolor, nec lacinia dolor suscipit sit amet.</p>
-      <img src="../assets/images/deco.png" alt="decoration" />
-  </div>
-
-  <div class="text-center">
+  <div class="text-center mt-3">
     <button type="button" class="btn btn-light" @click="change(1)">First Training Class</button>
     <button type="button" class="btn btn-light" @click="change(2)">Second Training Class</button>
     <button type="button" class="btn btn-light" @click="change(3)">Third Training Class</button>
     <button type="button" class="btn btn-light" @click="change(4)">Fourth Training Class</button>
   </div>
 
-  <div class="container">
+  <div class="container mt-5">
     <div class="card text-dark bg-light mb-3 mx-auto" style="width: 60rem;">
       <div v-for="(item, index) in classesStore.classes" :key="index">
         <div class="card-body" v-if="currentSelected === item.id">
